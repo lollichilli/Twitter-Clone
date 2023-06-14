@@ -1,0 +1,2 @@
+class Redditclone < ApplicationRecord
+end

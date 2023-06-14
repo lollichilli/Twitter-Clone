@@ -1,0 +1,33 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Twitter Clones</h1>
+
+<table class="table">
+  <thead> 
+    <tr>
+      <th>First name</th> 
+      <th>Last name</th> 
+      <th>Email</th> 
+      <th>Phone</th> 
+      <th>Twitter</th> 
+      <th colspan="3"></th>
+    </tr> 
+  </thead>
+
+  <tbody>
+  <div id="redditclones">
+    <% @redditclones.each do |redditclone| %>
+
+      <tr>
+          <td><%= link_to redditclone.first_name + ' ' + redditclone.last_name, redditclone %></td> 
+          <td><%= redditclone.email %></td>
+          <td><%= redditclone.phone %></td>
+          <td><%= redditclone.twitter %></td>
+          
+    <% end %>
+  </tbody>
+</table>
+
+</div>
+
+<%= link_to "New Twitter", new_redditclone_path %>

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @redditclone %>
+
+<div>
+  <%= link_to "Edit this redditclone", edit_redditclone_path(@redditclone) %> |
+  <%= link_to "Back to redditclones", redditclones_path %>
+
+  <%= button_to "Destroy this redditclone", @redditclone, method: :delete %>
+</div>
