@@ -22,8 +22,8 @@ application up and running.
 * Deployment instructions
 
 # Overview
-<img src="app/assets/images/screen.jpg" width="350" title="hover text">
-<img src="app/assets/images/screen2.jpg" width="350" title="hover text">
+<img src="app/assets/images/screen2.jpg" title="hover text">
+<img src="app/assets/images/screen.jpg" title="hover text"> 
 
 
 
