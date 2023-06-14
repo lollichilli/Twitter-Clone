@@ -25,5 +25,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
->>>>>>> c8eb950 (Initial Commit)
+
